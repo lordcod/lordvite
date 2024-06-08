@@ -1,3 +1,5 @@
+import fetch from 'node-fetch'
+
 const path = require('path');
 const nextPath = path.join(__dirname, 'node_modules', '.bin', 'vite');
 process.argv.length = 0;
